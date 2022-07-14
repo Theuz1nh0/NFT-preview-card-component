@@ -27,7 +27,7 @@ main {
     position: relative;
 }
 
-#link-image:hover::after {
+#link-image:active::after {
     align-items: center;
     background-color: hsla(178, 100%, 50%, 0.5);
     border-radius: 8px;
@@ -64,4 +64,24 @@ section a:hover {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 721px) {
+    #link-image:hover::after {
+        align-items: center;
+        background-color: hsla(178, 100%, 50%, 0.5);
+        border-radius: 8px;
+        content: url(./images/icon-view.svg);
+        display: flex;
+        height: 98.6%;
+        justify-content: center;
+        left: 0;
+        position: absolute;
+        top: 0%;
+        width: 100%;
+    }
+
+    #link-image:active::after {
+        background-color: hsla(200, 100%, 60%, 0.7);
+    }
 }
