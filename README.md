@@ -37,6 +37,12 @@ Users should be able to:
 ### What I learned
 
 ```css
+main {
+    max-width: 21.875rem;
+    width: 100%;
+}
+```
+```css
 #link-image:active::after {
     align-items: center;
     background-color: hsla(178, 100%, 50%, 0.5);

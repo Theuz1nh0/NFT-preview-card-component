@@ -21,8 +21,9 @@ main {
     background-color: hsl(216, 50%, 16%);
     border-radius: 12px;
     box-shadow: 0 25px 25px #00040a;
-    padding: 24px;
-    width: 350px;
+    padding: 1.5rem;
+    max-width: 21.875rem;
+    width: 100%;
 }
 
 #image {
@@ -78,14 +79,17 @@ section a:hover {
     border-bottom: 1px solid hsl(215, 32%, 27%);
     display: flex;
     flex-direction: row;
-    padding-bottom: 25px;
+    justify-content: space-between;
+    padding-bottom: 1.5625rem;
 }
 
-#icon-ethereum {
+#informations div {
     align-items: center;
+    display: flex;
+}
+#icon-ethereum {
     color: hsl(178, 100%, 50%);
     font-weight: 600;
-    margin-right: 37%;
 }
 
 #icon-ethereum,
