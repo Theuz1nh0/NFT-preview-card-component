@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/Theuz1nh0/Frontend-Mentor-QR-code-component)
-- Live Site URL: [live site URL](https://theuz1nh0.github.io/Frontend-Mentor-QR-code-component/)
+- Solution URL: [solution URL](https://github.com/Theuz1nh0/NFT-preview-card-component)
+- Live Site URL: [live site URL](https://theuz1nh0.github.io/NFT-preview-card-component/)
 
 ## My process
 
