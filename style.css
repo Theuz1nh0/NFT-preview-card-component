@@ -9,6 +9,7 @@
 body {
     align-items: center;
     background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
     display: flex;
     font-family: 'Outfit', sans-serif;
     flex-direction: column;
@@ -19,12 +20,14 @@ body {
 main {
     background-color: hsl(216, 50%, 16%);
     border-radius: 12px;
+    box-shadow: 0 25px 25px #00040a;
     padding: 24px;
     width: 350px;
 }
 
 #image {
     position: relative;
+    margin-bottom: 25px;
 }
 
 #link-image:active::after {
@@ -46,6 +49,18 @@ main {
     width: 100%;
 }
 
+h1 {
+    font-size: 1.375em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.125em;
+    font-weight: 300;
+    margin-bottom: 28px;
+}
+
 h1 a,
 section a {
     color: hsl(0, 0%, 100%);
@@ -55,10 +70,52 @@ section a {
 h1 a:hover,
 section a:hover {
     color: hsl(178, 100%, 50%);
+    transition: 500ms;
+}
+
+#informations {
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+#icon-ethereum {
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-right: 37%;
+}
+
+#icon-ethereum,
+#icon-clock {
+    margin-left: 7px;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    margin: 16px 0 8px 0;
+}
+
+section a {
+    margin-left: 5px;
+}
+
+#image-avatar {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 33px;
+    margin-right: 16px;
 }
 
 .attribution {
+    color: white;
     font-size: 11px;
+    margin-top: 20px;
     text-align: center;
 }
 
