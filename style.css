@@ -97,8 +97,13 @@ section {
     align-items: center;
     display: flex;
     flex-direction: row;
-    font-weight: 300;
     margin: 16px 0 8px 0;
+}
+
+section h1 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
 }
 
 section a {
