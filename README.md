@@ -61,4 +61,4 @@ main {
 ## Author
 
 - Frontend Mentor - [@Theuz1nh0](https://www.frontendmentor.io/profile/Theuz1nh0)
-- Linkedin - [@mateus-moura-domingos-462607243](https://www.linkedin.com/in/mateus-moura-domingos-462607243/)
+- Linkedin - [@theuz1nh0](https://www.linkedin.com/in/theuz1nh0/)
